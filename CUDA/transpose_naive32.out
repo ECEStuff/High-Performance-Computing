@@ -1,0 +1,52 @@
+Script began: Thu Mar 11 03:33:04 PST 2021
+Node: hpc3-gpu-17-04
+Current directory: /data/homezvol0/whtruong/EECS224-hw3
+
+=== Running 5 trials of transpose ... ===
+*** Trial 1 ***
+2D allocation. Number of blocks: 32; number of threads: 32
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+GPU transpose: 7.6e-05 secs ==> 13.7971 billion elements/second
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute CPU transpose kernel: 0.019536 secs
+Transpose successful
+*** Trial 2 ***
+2D allocation. Number of blocks: 32; number of threads: 32
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+GPU transpose: 7.7e-05 secs ==> 13.6179 billion elements/second
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute CPU transpose kernel: 0.019399 secs
+Transpose successful
+*** Trial 3 ***
+2D allocation. Number of blocks: 32; number of threads: 32
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+GPU transpose: 7.6e-05 secs ==> 13.7971 billion elements/second
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute CPU transpose kernel: 0.019025 secs
+Transpose successful
+*** Trial 4 ***
+2D allocation. Number of blocks: 32; number of threads: 32
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+GPU transpose: 7.6e-05 secs ==> 13.7971 billion elements/second
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute CPU transpose kernel: 0.019476 secs
+Transpose successful
+*** Trial 5 ***
+2D allocation. Number of blocks: 32; number of threads: 32
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+GPU transpose: 7.5e-05 secs ==> 13.981 billion elements/second
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute CPU transpose kernel: 0.019464 secs
+Transpose successful
+
+=== Done! ===

@@ -1,0 +1,47 @@
+Script began: Tue Mar 9 04:42:52 PST 2021
+Node: hpc3-gpu-18-02
+Current directory: /data/homezvol0/whtruong/EECS224-hw3
+
+=== Running 5 trials of stride ... ===
+*** Trial 1 ***
+N: 67108864
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute strided index GPU reduction kernel: 0.001594 secs
+Effective bandwidth: 168.40 GB/s
+Time to execute naive CPU reduction: 0.575625 secs
+SUCCESS: GPU: 335.550171  CPU: 335.550140
+*** Trial 2 ***
+N: 67108864
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute strided index GPU reduction kernel: 0.001594 secs
+Effective bandwidth: 168.40 GB/s
+Time to execute naive CPU reduction: 0.598163 secs
+SUCCESS: GPU: 335.571228  CPU: 335.571259
+*** Trial 3 ***
+N: 67108864
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute strided index GPU reduction kernel: 0.001594 secs
+Effective bandwidth: 168.40 GB/s
+Time to execute naive CPU reduction: 0.577337 secs
+SUCCESS: GPU: 335.507080  CPU: 335.507050
+*** Trial 4 ***
+N: 67108864
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute strided index GPU reduction kernel: 0.001594 secs
+Effective bandwidth: 168.40 GB/s
+Time to execute naive CPU reduction: 0.577715 secs
+SUCCESS: GPU: 335.525024  CPU: 335.525024
+*** Trial 5 ***
+N: 67108864
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute strided index GPU reduction kernel: 0.001594 secs
+Effective bandwidth: 168.40 GB/s
+Time to execute naive CPU reduction: 0.576295 secs
+SUCCESS: GPU: 335.523773  CPU: 335.523773
+
+=== Done! ===

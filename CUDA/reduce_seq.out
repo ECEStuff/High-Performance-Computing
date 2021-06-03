@@ -1,0 +1,47 @@
+Script began: Tue Mar 9 04:42:58 PST 2021
+Node: hpc3-gpu-18-02
+Current directory: /data/homezvol0/whtruong/EECS224-hw3
+
+=== Running 5 trials of sequential ... ===
+*** Trial 1 ***
+N: 67108864
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute sequential index GPU reduction kernel: 0.001248 secs
+Effective bandwidth: 215.09 GB/s
+Time to execute naive CPU reduction: 0.598662 secs
+SUCCESS: GPU: 335.571259  CPU: 335.571259
+*** Trial 2 ***
+N: 67108864
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute sequential index GPU reduction kernel: 0.001247 secs
+Effective bandwidth: 215.27 GB/s
+Time to execute naive CPU reduction: 0.57745 secs
+SUCCESS: GPU: 335.507080  CPU: 335.507050
+*** Trial 3 ***
+N: 67108864
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute sequential index GPU reduction kernel: 0.001247 secs
+Effective bandwidth: 215.27 GB/s
+Time to execute naive CPU reduction: 0.577635 secs
+SUCCESS: GPU: 335.525024  CPU: 335.525024
+*** Trial 4 ***
+N: 67108864
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute sequential index GPU reduction kernel: 0.001247 secs
+Effective bandwidth: 215.27 GB/s
+Time to execute naive CPU reduction: 0.576493 secs
+SUCCESS: GPU: 335.523743  CPU: 335.523773
+*** Trial 5 ***
+N: 67108864
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute sequential index GPU reduction kernel: 0.001247 secs
+Effective bandwidth: 215.27 GB/s
+Time to execute naive CPU reduction: 0.598292 secs
+SUCCESS: GPU: 335.557556  CPU: 335.557556
+
+=== Done! ===
